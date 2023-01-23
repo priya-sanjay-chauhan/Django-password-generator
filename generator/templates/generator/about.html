@@ -1,0 +1,87 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0px;
+            padding: 0px;
+            background-image:url(../generator/password.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            width: 100%;
+            
+
+        }
+        .main{
+            background-color: rgb(90, 189, 156);
+            height: 500px;
+            width: 900px;
+            margin: auto;
+            box-shadow: 10px 10px rgb(207, 204, 200);
+            margin-top: 30px;
+        }
+        .about{
+            height: 500px;
+            width: 400px;
+            background-color: rgb(241, 221, 194);
+            display: inline-block;
+            text-align: center;
+           
+            
+            
+
+        }
+        h1{
+            margin-top: 200px;
+            text-shadow: 5px 5px grey;
+            font-size: 50px;
+            
+        }
+
+        .container{
+           height: 300px;
+           width: 400px;
+           display: inline-block;
+    position: absolute;
+    right: 245px;
+    top: 84px;
+           
+        }
+        .pic{
+            width: 200px;
+            height: 200px;
+            
+        }
+ 
+    </style>
+</head>
+
+<body style="background-image: url('{% static 'img/password.jpg' %}') ; ">
+
+    <div class="main">
+
+        <div class="about">
+            <h1>ABOUT</h1>
+        </div>
+        <div class="container">
+        
+        <h2>Password Generator creates unique password everytime.</h2>
+        <h2>You can create password according to your choice.</h2>
+        <h2>It support special characters too.</h2>
+        <h2>It's safe and secure.</h2>
+         </div>
+         <div class="pic">
+            <img src="tick.png
+            " alt="">
+         </div>
+        </div>
+        
+    </body>
+
+</html>
